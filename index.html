@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" 
+      type="image/png" 
+      href="logo.png">
+    <title>Weather</title>
+</head>
+<body>
+
+    <div class="d-flex justify-content-center align-items-center h-100 wrapper">
+        <h1>Weather widget</h1>
+        <div class="form-width p-lg-5 p-2">
+            <input class="form-control mr-sm-2 search-box mb-5" type="search" autocomplete="off" placeholder="Search for a city..." />
+            <div class="weather-border">
+                <div class="text-center p-3 city-bg">
+                    <div class="city">Northampton, GB</div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-6 p-1 date-bg d-flex justify-content-center align-items-center">
+                        <div class="date">Thursday 10 January 2020</div>
+                        <div class="temp">15<span>°c</span></div>
+                    </div>
+                    <div class="col-lg-6 p-4 d-block icon-bg d-flex justify-content-center align-items-center">
+                        <img id="wicon" src="http://openweathermap.org/img/w/09n.png" alt="Weather icon">
+                        <div class="weather">Sunny</div>
+                        <div class="hi-low">13°c / 16°c</div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/d85d39ff72.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

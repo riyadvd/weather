@@ -1,0 +1,60 @@
+html{
+    height:100%;
+}
+
+body{
+    height:100%;
+    margin:0;
+    padding:0;
+    background-image: url(bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    flex-direction: column;
+    background-color: #a580804a;
+}
+
+.weather-border{
+    box-shadow: 10px 10px #33333336;
+}
+
+.city, .date, .temp, .weather, .hi-low{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.search-box,
+.search-box:focus{
+    box-shadow: 7px 7px #33333336;
+}
+
+.form-control,
+.form-control:focus{
+    border: none;
+}
+
+.city-bg{
+    background-color:#ffffffa6;
+}
+
+.date-bg{
+    background-color: #ffffff2e;
+    flex-direction: column;
+}
+
+.icon-bg{
+    background-color: #ffffff2e;
+    flex-direction: column;
+}
+
+.form-width{
+width:50%;
+}
+
+@media screen and (max-width:990px){
+    .form-width{
+        width:100%;
+    }
+}
