@@ -42,6 +42,7 @@ body{
 .date-bg{
     background-color: #ffffff52;
     flex-direction: column;
+    padding: .2rem;
 }
 
 .icon-bg{
@@ -64,9 +65,11 @@ width:50%;
     }
     .icon-bg{
 
-        padding: 0rem 1.5rem 1.5rem 1.5rem;
+        padding: .5rem 1.5rem 1rem 1.5rem;
     }
     .date-bg{
         background-color: #ffffff2e;
+        order:2;
+        padding: 0.2rem 0.2rem 1.2rem 0.2rem;
     }
 }
