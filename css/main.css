@@ -59,6 +59,13 @@ width:50%;
     width:20%;
 }
 
+@media screen and (max-width:1277px){
+    .city, .date, .temp, .weather, .hi-low{
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
 @media screen and (max-width:990px){
     .form-width{
         width:100%;
