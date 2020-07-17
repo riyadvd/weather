@@ -40,21 +40,33 @@ body{
 }
 
 .date-bg{
-    background-color: #ffffff2e;
+    background-color: #ffffff52;
     flex-direction: column;
 }
 
 .icon-bg{
     background-color: #ffffff2e;
     flex-direction: column;
+    padding: 1.5rem;
 }
 
 .form-width{
 width:50%;
 }
 
+#wicon{
+    width:20%;
+}
+
 @media screen and (max-width:990px){
     .form-width{
         width:100%;
+    }
+    .icon-bg{
+
+        padding: 0rem 1.5rem 1.5rem 1.5rem;
+    }
+    .date-bg{
+        background-color: #ffffff2e;
     }
 }
